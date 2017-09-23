@@ -1,0 +1,24 @@
+{
+  "name": "last-word",
+  "version": "0.0.1",
+  "description": "Get the last word in a reddit comment thread",
+  "homepage": "https://github.com/galway-man/last-word",
+  "author": {
+    "name": "galway-man",
+    "url": "https://github.com/galway-man"
+  },
+  "main": "index.js",
+  "keywords": [
+    "reddit last word petty"
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "repository": "https://github.com/galway-man/last-word.git",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "snoowrap": "^1.14.2"
+  }
+}
